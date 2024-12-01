@@ -22,7 +22,7 @@ export const CardProduct = (
 
     const selectdVariant = variants.find(variant => variant.color === activeColor.color);
 
-    const stock = selectdVariant.stock || 0;
+    const stock = selectdVariant?.stock || 0;
 
     
     
